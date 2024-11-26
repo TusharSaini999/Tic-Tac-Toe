@@ -1,0 +1,221 @@
+/*Devloped By Tushar Saini*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+   background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+height: 100%;
+padding: 10%;
+vertical-align: middle;
+}
+#tex{
+font-size: 3em;
+    text-align: center;
+    color: #333333;
+text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+text-decoration: underline;
+}
+#par1{
+    display: flex;
+    flex-direction: column;
+    background-color: #15ffcb7b;
+    margin-bottom: 10%;
+    margin-top: 20%;
+    border-radius: 10px;
+}
+
+#pp1,#pp2,#pp3{
+    display: flex;
+    justify-content: space-evenly;
+}
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffbfaf;
+    width: 3em;
+    height: 3em;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 10%;
+    }
+#pp3{
+    margin-bottom: 10%;
+}
+#par2{
+    margin-top: 15%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#g2{
+    color:white;
+    padding: 5%;
+    border-radius: 20px;
+    background-color:#1100ffda;
+    width: 6em;
+}
+#g1{
+    color: white;
+    padding: 5%;
+    border-radius: 20px;
+    background-color:#1100ffda;
+    box-shadow: 0px 0px 10px 4px #f800ff;
+    border: 2px solid #f800ff;
+    width: 6em;
+}
+i{
+    color: #ff0a00;
+    font-size: 28px;
+    animation: popup 0.7s;
+}
+#i2{
+    height: 18px;
+    width: 18px;
+    border: 3px solid #ff0a00;
+    border-radius: 50%;
+}
+#btn{
+    display: flex;
+    justify-content: center;
+   
+}
+#chbtn{
+    width: 8em;
+    height: 3em;
+    color: white;
+    background: linear-gradient(45deg, #ff4055 0%, #c67700 100%);
+    border-radius: 20px;
+    border: none;
+    border: 2px solid black;
+    font-size: 1em;
+}
+
+@keyframes popup {
+  0%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.4);
+  }
+  60%{
+    transform: scale(1.1);
+  }
+  70%{
+    transform: scale(1.2);
+  }
+  80%{
+    transform: scale(1);
+  }
+  90%{
+    transform: scale(1.1);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+
+
+ /* Make a Response for Laptop*/
+ @media only screen and (min-width: 612px) {
+  /* CSS styles for devices with width greater than 620px */
+#tex{
+    font-size: 5em;
+}
+.div{
+    height: 4.5em;
+    width: 4.5em;
+}
+#par1{
+    border-radius: 20px;
+    margin-top: 8%;
+}
+#par2{
+    margin-top: 8%;
+}
+i{
+    font-size: 5em;
+}
+#i2{
+    height: 55px;
+    width: 55px;
+    border: 7px solid red;
+}
+#g1{
+    width:10em ;
+    font-size: 20px;
+}
+#g2{
+    width: 10em;
+    font-size:20px ;
+}
+#chbtn{
+    width: 10em;
+    font-size: 30px;
+}
+}
+
+/*model started*/
+.modal {
+      display: flex;
+      position: fixed;
+      z-index: 5;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background: linear-gradient(90deg, rgba(227, 255, 231,0.2) 0%, rgba(217, 231, 255,0.2) 100%);
+      backdrop-filter: blur(5px);
+      background-color: rgba(0,0,0,0.2);
+      justify-content: center;
+      align-items: center;
+    }
+    .modal-content {
+    color: white;
+      background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+      max-width: 500px;
+      border-radius: 10px;
+      position: relative;
+    }
+    .modal-header, .modal-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+    .modal-body {
+      padding: 20px;
+    }
+    .close {
+      color: #aaa;
+      font-size: 28px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .close:hover,
+    .close:focus {
+      color: black;
+      text-decoration: none;
+    }
+    .modal-footer {
+      justify-content: flex-end;
+    }
+    .modal-footer .btn {
+      padding: 10px 20px;
+      margin-left: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .modal-footer .btn-primary {
+      background-color: #007bff;
+      color: white;
+    }
+ /*model close*/
+ 
