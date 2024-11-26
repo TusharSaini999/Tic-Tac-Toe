@@ -4,7 +4,7 @@
 
 Welcome to the **Tic Tac Toe Game Website**! This project is a simple, fun, and interactive implementation of the classic Tic Tac Toe game, designed for two players to enjoy on a single device. It's a quick and engaging way to relive the nostalgia of this timeless game. 
 
-🔗 **Play the game here:** [👉 Tic Tac Toe Game Website](https://tic-tac-toe-tushar-saini.netlify.app/)https://tic-tac-toe-tushar-saini.netlify.app/
+🔗 **Play the game here:** [👉 Tic Tac Toe Game Website](https://tic-tac-toe-tushar-saini.netlify.app/)  ->   https://tic-tac-toe-tushar-saini.netlify.app/
 
 ---
 
